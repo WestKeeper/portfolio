@@ -1,0 +1,348 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+.avatar{
+  width: 57px;
+  height: 57px;
+  background: url("https://bakermarketingservices.com/wp-content/uploads/2018/08/inbound-marketing-convert-1.jpeg");
+  background-size: 100%;
+  border-radius: 50%;
+}
+.menu-logo{
+  display: flex;
+  align-items: center;
+}
+.name{
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description{
+  margin-left: 9px;
+}
+.menu-list{
+  display: flex;
+  align-items: center;
+}
+.menu-list a{
+  display:inline-block;
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+  position: relative;
+}
+.menu-list a:after {
+    background-color: #2b2a2c;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+.menu-button{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+.hero{
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url("https://kyrieeleison.me/wp-content/uploads/2018/03/need-to-move-files-between-cloud-servers-rebecca-mansbridge.jpg") no-repeat right bottom;
+  background-size: contain;
+}
+.hero-subtitle{
+  font-size: 32px;
+}
+.hero-title{
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description{
+  font-size: 18px;
+  color: #6a696b;;
+}
+.hero-social{
+  margin-top: 30px;
+ }
+.social{
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg{
+  background-color: #1869ff;
+}
+.facebook-bg{
+  background-color: #3a5898;
+}
+.instagram-bg{
+  background-color: #13578a;
+}
+.vk-bg{
+  background-color: #56acef;
+}
+.hero-buttons{
+  margin-top: 40px;
+}
+.button{
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.button-primary{
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o{
+  background-color: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+}
+.projects{
+  padding: 97px 0;
+}
+.project-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card{
+  min-height: 370px;
+  width: 370px;
+  background-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.project-card-image{
+  height: 300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.landing-page{
+  background: url("https://psychotext.ru/public/files/images/lp_prototip.png") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page2{
+  background: url("https://9310802.ru/upload/iblock/91e/91e85d588b324fe71abc6094559b5550.png") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page3{
+  background: url("http://seotrast.com/images/img/ico/lp.png") no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page4{
+  background: url("http://2eng.ru/media/filer_public_thumbnails/filer_public/e3/c7/e3c76303-c6eb-4ff4-b40b-18779ed1de9b/index_lolv2l.png__1029x893_q85_crop_upscale.png") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page5{
+  background: url("https://www.digiseller.ru/preview/356687/p1_31122141843950.JPG") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page6{
+  background: url("http://www.fainaidea.com/wp-content/uploads/2015/01/Unbounce_Landing_Page.png") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page7{
+  background: url("https://im-income.com/wp-content/uploads/2015/04/Landing-Page-Optimization.png") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page8{
+  background: url("https://ekaterinburg.9310802.ru/upload/iblock/9e2/9e2dbad40a5021ffa47f4f03f63951c4.png") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page9{
+  background: url("http://megaidei.ru/wp-content/uploads/2017/08/1-102.png") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-card_info{
+  padding: 19px 13px;
+}
+.project-category{
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+ }
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.about_me_info{
+ display: flex;
+ margin-bottom: 100px;
+}
+.photo_me{
+ min-height: 606px;
+ min-width:542px;
+ background: url("https://us.123rf.com/450wm/digitalgenetics/digitalgenetics1011/digitalgenetics101100146/8165207-3d-man-holding-a-laptopp-and-some-books.jpg?ver=6") no-repeat center;
+  margin-right: 50px;
+  background-size: 100%;
+}
+.about_me_text{
+  flex-direction: column;
+  margin-top: 100px;
+  margin-right: 90px;
+}
+h2{
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 45px;
+  margin-bottom: 42px;
+}
+p {
+    color: #717072;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 53px;
+}
+.footer{
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a{
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+}
+.copyright{
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #8d8d8e;
+  font-size: 14px;
+}
+.footer-social_link{
+  font-size: 20px;
+  margin-right: 13px;
+  text-decoration: none;
+}
+.footer-menu{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.footer-menu a{
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+ }
+.footer-button{
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+}
+@media (max-width: 1200px){
+  .container{
+    width: 965px;
+  }
+  .project-card{
+    width: 48%;
+  }
+}
+  @media (max-width: 992px){
+  .container{
+    width: 760px;
+  }
+    .project-card{
+    width: 48%;
+  }
+    .about_me_info{
+      display: flex;
+      flex-wrap: wrap;
+    }
+}
+@media (max-width: 768px){
+  .description_small{
+    font-size: 10px;
+   }
+  .menu-list a{
+    display: none;
+  }
+  .hero{
+  padding-bottom: 680px;
+    padding-top: 30px;
+  }
+  .container{
+    width: 95%;
+  }
+    .project-card{
+    width: 95%;
+    margin: 30px auto;
+  }
+}
